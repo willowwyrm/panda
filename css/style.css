@@ -1,0 +1,431 @@
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	font-style: normal;
+	font-weight: 100;
+	src: url(../fonts/HelveticaNeueCyr-Thin.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/HelveticaNeueCyr-Light.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	font-style: italic;
+	font-weight: 300;
+	src: url(../fonts/HelveticaNeueCyr-LightItalic.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/HelveticaNeueCyr-Roman.otf);
+}
+
+
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	font-style: normal;
+	font-weight: bold;
+	src: url(../fonts/HelveticaNeueCyr-Medium.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	font-style: normal;
+	font-weight: 900;
+	src: url(../fonts/HelveticaNeueCyr-Bold.otf);
+}
+
+
+body {
+	color: white;
+	background: url(../design/background.png);
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	line-height: 1;
+	min-height: 733px;
+}
+
+a {
+	color: #dddddd;
+}
+
+a:hover {
+	color: white;
+}
+
+
+.turquoise {
+	background-color: #4fc98a;
+	border: 1px solid  #4fc98a;
+}
+
+.strong {
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+}
+
+
+.btn {
+	display: inline-block;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-weight: 300;
+	padding: 12.5px 16px;
+	width: 130px;
+} 
+
+.btn-2 {
+	color: #2b8658;
+	font-size: 18px;
+	margin: 30px 0 0 0;
+}
+
+.btn-3 {
+	color: white;
+	font-size: 18px;
+	margin: 30px 0 0 0;	
+} 
+
+/*Index*/
+
+.container .jumbotron {
+	padding-left: 93px;
+}
+
+.jumbotron {
+	background: transparent;
+	padding-top: 150px;
+}
+
+.jumbotron h1 {
+	font-size: 62px;
+}
+
+.logo {
+	width: 121px;
+	padding: 0 20px 0px 0;
+	vertical-align: top;
+	
+}
+
+.logo-small {
+	float: left;
+	width: 35px;
+	padding: 0 12px 0 0;
+	margin: -5px 0 20px 0;
+}
+
+.panda-profile {
+	display: inline-block;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+
+.logo-text {
+	font-size: 38px;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-weight: 100;
+	color: #dddddd;
+	letter-spacing: -1px;
+	line-height: 1.2;
+	padding: 8px 0 32px 8px;
+	width: 585px;
+}
+
+.buttons {
+	padding: 5px 0 0 12px;
+}
+
+.btn-simple {
+	border: 1px solid white;
+	background-color: transparent;
+}
+
+.footer {
+	background-color: #4fc98a;
+	vertical-align: bottom;
+	height: 75px;
+	width: 100%;
+}
+
+.footer-general{
+	display: inline-block;
+	width: 33%;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #dddddd;
+	line-height: 1.2;
+	text-align: center;
+
+	padding: 28px 0 0 0;
+	vertical-align: top;
+}
+
+.footer-menu a {
+	display: inline-block;
+	margin: 0 18px;
+}
+
+.footer-1 {
+	text-align: left;
+	width: 360px;
+	margin: -10px auto 0px auto;
+	padding: 0 0 0 60px;
+
+}
+
+/*Sign-up */ 
+
+.sign-up-form {
+	margin: 50px 0 0 300px;
+	width: 605px;
+}
+
+.sign-up-header {
+	height: 70px;
+	color: #ffffff;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 3.5;
+}
+
+.sign-up-body {
+
+	background-color: #545965;
+	text-align: center;
+	padding: 5px 50px 25px 50px;
+}
+
+.sign-up-logo {
+	width: 110px;
+	padding-bottom: 5px;
+}
+
+.sign-up-text {
+	color: #a5a9ac;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: justify;
+	margin: 0 0 30px 0;
+}
+
+.sn-buttons {
+	margin: 0 0 30px -35px;
+}
+
+.social-network-btn {
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	background-color: #414653;
+	color: #c5c7cc;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 0 30px;
+}
+
+.sn-img {
+	padding: 0 15px 5px 0;
+}
+
+
+.sign-up-input {
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #4c515d;
+	width: 445px;
+	height: 40px;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+	margin: 0 0 15px 0;
+}
+
+.sign-up-input:last-child {
+	margin: 0;
+}
+
+.sign-up-input:-moz-placeholder {
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #a5a9ac;
+}
+
+.sign-up-input::-webkit-input-placeholder {
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #a5a9ac;
+}
+
+.sign-up-input:-moz-placeholder {
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #a5a9ac;
+}
+
+.sign-up-input::-webkit-input-placeholder {
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #a5a9ac;
+}
+
+.sign-up-input:focus {
+	border: none;
+	border-bottom: 2px solid #4c515d;
+	outline: none;
+}
+
+/*Sign up-a*/
+
+.social-network-btn-li {
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	background-color: #0274b3;
+	color: white;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 0 30px;
+}
+
+.social-network-btn-fb {
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	background-color: #3b5999;
+	color: white;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 0 30px;
+}
+
+/*Thank you-a*/
+
+
+.thank-you-a-text {
+	text-align: center;
+}
+
+.add-more {
+	display: block;
+	color: white;
+	font-size: 14px;
+	text-align: right;
+	margin: 15px 30px 0 0;
+	cursor: pointer;
+}
+
+/*Thank you*/
+
+.thank-you-text {
+	text-align: center;
+	margin: 0 0 -10px 0;
+}
+
+/*About*/
+
+.jumbotron-2 {
+	margin: 0 0 0 -115px;
+	padding: 15px 0 0 0;
+}
+
+.about-us-header {
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	font-size: 26px;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 20px 0 20px 20px;
+}
+
+.about-us-text {
+	color: #dddddd;
+	font-size: 16px;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	margin: 0 0 0 20px;
+}
+
+.about-us-quote {
+	height: 130px;
+	margin: 30px 0 0 20px;
+	width: 100%;
+	font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+	color: white;
+	background-color: #545965;
+
+
+}
+
+.quote-block {
+	width: 130px;
+	height: 130px;
+	font-size: 90px;
+	text-align: center;
+	line-height: 1.3;
+	/*font-weight: 300;*/
+}
+
+.quote-text {
+	font-weight: 300;
+	font-style: italic;
+	padding: 30px 40px 0 165px;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.quote-user {
+	color: #aaaaaa;
+	padding: 7px 0 0 0;
+	font-size: 16px !important;
+}
+
+.about-buttons {
+	margin: 35px 0 70px 0;
+	text-align: center;
+}
+
+.about-buttons a {
+	display: inline-block;
+}
+
+.about-buttons a:first-child {
+	margin: 0 27px 0 0;
+}
+
+
+
+
