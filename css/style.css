@@ -429,3 +429,59 @@ a:hover {
 
 
 
+@keyframes panda-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+ 25% {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+ 75% {
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+ }
+
+}
+
+@-webkit-keyframes panda-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+ 25% {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+ 75% {
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+ }
+}
+
+.sign-up-logo:hover, .logo:hover, .logo-small:hover {
+  -webkit-animation: panda-rotate 3s;
+  -moz-animation: panda-rotate 3s;
+  animation: panda-rotate 3s;
+	}
+
+	
